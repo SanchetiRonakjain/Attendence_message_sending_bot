@@ -1,0 +1,104 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="sfsdf" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="822.4,602.4" sap2010:WorkflowViewState.IdRef="sfsdf_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.SystemCenter.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="sfsdf" sap:VirtualizedContainerService.HintSize="503.2,164.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: WASender Free Plugin - Chrome Web Store" sap:VirtualizedContainerService.HintSize="440.8,52.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="92de5d47-2f4f-49ba-b762-891dd300d829" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'chrome.exe WASender'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="92de5d47-2f4f-49ba-b762-891dd300d829" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1378, 373, 226, 74" DesignTimeScaleFactor="1.25" FriendlyName="'chrome.exe WASender'" Guid="91b7f297-fa7e-404f-912f-ead722ea051c" ImageBase64="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" InformativeScreenshot="1e5ce4cc18a1649385ad829db0a07e44.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='WASender Free Plugin - Chrome Web Store - Google Chrome' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASWSURBVFhHxZPbTxRnGIe1Tb3sHyCIBBEEWlgQEOjKSVnOqBVoGlJrsXLRCBdN26RpahXtITGGeCqIFzatB0At1CgFDU2NUm1BW0qQ0855Z5fD7iLtRZtY+PX7ZtjdGXY7UC7WL3ny7vtmZn/P983MKgDPlIDDYBJwGEz0zRLLZrfXtbZdQWsrpQ2tbW1o0UJmoiTXLVzut7RZ3kxdY7BssqNOlGwk1CNAIKGLJXhBJBK2gBLaLG+mrjFYZGf0j5c8JirAC1LA67RZ3kxdY7AkWxAEZLsdFJsse5FsNgKtqoACmQmkCpKkIlJEBY8ArRzvQQDrhSdRBgLa8KAL+If7BDzvQJAFtLv3CajhRgIqKxbw7TzA8QcMVwW04SsSCBSshvsEFof8F9pwrQC3tIAe3bNfloDR8/8fAmqwPpxtuQT2wH4Ie3dDertcwbaAsGcX2Nr94C5fNBDgwXIGAr5QfTDf3QWmqhJs2TZwFQUQqkohvrkTYjUReWs3xD07ILxeBH6XBWxxDsarKsB2dq1EwBfqgTl9BmPmVFhzXwGTnwm2NBfcqxbwVOS1AlILwZXng9uxHUxhNqx5ZoxnpWE0LRnW06c04erxGwpMTE5CC19/BEySCeyWZHDmLeCzMyBs3wqhMAticTYhR4X0giUTQq4ZXGYauPQUsJuTwMTHgzt0BJJsJ/gerzZTJ+Byz8DDSPtl8NGxEF56GaLJBCklCbb0VMhERM5Kh53I2Mmp2HMySE/YmgZbRipsqZshJprIffHk/jhwEdGwt13D5NQU2ZSKNnORgJuEuyFNSdh3oRTDYZHgI2PAb4pTRRISICUlQkpOUoVIGK1KT+aiKUG5jl7PR24Cuz4KbNhGcLGJcFjZ5QucG2hGcbcFDe9k4HFIBNjwKHAbosFHxSq7ErNzMH3yBGbv38XsYCeePKjHVEc65JZ1ZLdrYb8agon2EDILgfN6KFw3QuHsqV1awOlyg1LetRMlt/JR/l0R7sRtUCXITijyex9iSHThzI8yDt/gcey2gPP3HbBO/An3rzVw3loDd88azN55AX89eB5P+5/D3G+rMT/44oLAJIkyELjL3ENRp0URKLmdj48O5mJgbThGQiPI57YPHY8mUXGeQ/UlHgeu8Hj3WwG1VwWlvzc+g79HyzBPAvE7+ctFuMQOOCYMBVw4+/CsTqCoYxtaUiIVCW6ERWETh+JmVpF44xseey/ySq0kfeVXPKZd5C0PEE75Y/x9Y4FppwtN/XoBSvVBM34xJePrXhnJxxlknmJhaWRR0syh7Byn1HzS03n3kAtzj8P8BQZWYXZsOQJ9TSi6qRcovpmHCzXl+LRTRPTnViQcY5DawCDjBAPzSVaptDeR+fEeB56Omf0E5pcn4ETjz00ovG4hX4FPgFLTUIbmH1iE148g4qgVGz+zIuYLK2IJtEaRns7byTsyN+R/AvRFfDK6hMDUtLP3y58aUdCeh+LvySloBCh9fQ8R9Uk/1n08gPWHhhB+eFgRopX2MUcHIcqMXzjln0erMTP8AeyOiV5tpvfHsyLgMJgEHAaTgMPggVX/AsY3ec2EXhvTAAAAAElFTkSuQmCC" InformativeScreenshot="0ea3cf984517a595057f6bdfec3c2fed.png" Selector="&lt;html app='chrome.exe' title='WASender Free Plugin - Chrome Web Store' /&gt;" Title="WASender Free Plugin - Chrome Web Store" Url="https://chrome.google.com/webstore/detail/wasender-free-plugin/heogilejknffekkbjdjmoamaehdblmnc" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

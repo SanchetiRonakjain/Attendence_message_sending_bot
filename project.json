@@ -1,0 +1,66 @@
+{
+  "name": "Whatsapp Automation",
+  "projectId": "b97cd3b6-6e59-4df3-b8c7-c3df33bf9a1c",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.2]",
+    "UiPath.ImageProcessing": "[23.4.0]",
+    "UiPath.Mail.Activities": "[1.20.2]",
+    "UiPath.Platform": "[23.6.0]",
+    "UiPath.System.Activities": "[23.4.3]",
+    "UiPath.System.Extended.Activities": "[1.0.1]",
+    "UiPath.SystemCenter.Activities": "[1.0.3]",
+    "UiPath.UIAutomation.Activities": "[23.4.6]",
+    "UiPath.UIAutomation.Activities.Runtime": "[23.4.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "13e5b50a-cb7a-440f-8cf8-2f440dba2e01",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
